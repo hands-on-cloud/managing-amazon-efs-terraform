@@ -1,16 +1,14 @@
-# Amazon EKS
+# Amazon EC2 instance
 
-This is a demo repository for the [How to Set Up Amazon EKS Cluster Using Terraform](https://hands-on.cloud/how-to-set-up-amazon-eks-cluster-using-terraform/) article.
+This is a demo repository for the [How to manage Amazon EFS using Terraform](https://hands-on.cloud/how-to-manage-amazon-efs-using-terraform/) article.
 
 This module sets up the following AWS services:
 
-* Amazon EKS control plane
-* Amazon EKS worker node group
-* Amazon IAM cluster and worker node roles
+* EC2 instance
 
-After EKS deployment this Terraform module will generate `kubectl` config file for connecting to the EKS cluster. 
+The EC2 instance user data contains automation to automatically mount EFS volume.  
 
-![Amazon EKS](https://hands-on.cloud/wp-content/uploads/2022/04/How-to-Set-Up-Amazon-EKS-Cluster-Using-Terraform-Deployment-architecture-overview.png)
+![Amazon EC2 instance](https://hands-on.cloud/wp-content/uploads/2022/05/How-to-manage-Amazon-EFS-using-Terraform-EC2-instance-deployment.png)
 
 ## Deployment
 

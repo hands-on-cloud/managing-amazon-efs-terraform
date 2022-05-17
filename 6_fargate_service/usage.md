@@ -1,12 +1,12 @@
-# AWS Lambda
+# AWS Fargate Service
 
 This is a demo repository for the [How to manage Amazon EFS using Terraform](https://hands-on.cloud/how-to-manage-amazon-efs-using-terraform/) article.
 
 This module sets up the following AWS services:
 
-* AWS Lambda with mounted EFS volume
+* AWS Fargate Service with demo Falsk application
 
-![AWS Lambda](https://hands-on.cloud/wp-content/uploads/2022/05/How-to-manage-Amazon-EFS-using-Terraform-AWS-Lambda-deployment.png)
+![AWS Fargate cluster](https://hands-on.cloud/wp-content/uploads/2022/05/How-to-manage-Amazon-EFS-using-Terraform-Fargate-cluster-deployment.png)
 
 ## Deployment
 

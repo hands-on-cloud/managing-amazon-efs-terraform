@@ -1,5 +1,5 @@
-# Amazon EKS Cluster - Demo applications
+# How to manage Amazon EFS using Terraform demos
 
-This is a demo repository for the [How to Set Up Amazon EKS Cluster Using Terraform](https://hands-on.cloud/how-to-set-up-amazon-eks-cluster-using-terraform/) article.
+This is a demo repository for the [How to manage Amazon EFS using Terraform](https://hands-on.cloud/how-to-manage-amazon-efs-using-terraform/) article.
 
-![How to Set Up Amazon EKS Cluster Using Terraform](https://hands-on.cloud/wp-content/uploads/2022/04/How-to-Set-Up-Amazon-EKS-Cluster-Using-Terraform.png)
+![How to manage Amazon EFS using Terraform](https://hands-on.cloud/wp-content/uploads/2022/05/How-to-manage-Amazon-EFS-using-Terraform.png)
