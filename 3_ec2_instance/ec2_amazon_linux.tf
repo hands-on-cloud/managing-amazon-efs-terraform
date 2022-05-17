@@ -33,20 +33,6 @@ resource "aws_security_group" "amazon_linux_2" {
   description = "Amazon Linux 2 SG"
   vpc_id      = local.vpc_id
 
-  ingress = [
-    {
-      description      = "ALL Traffic"
-      from_port        = 0
-      to_port          = 0
-      protocol         = "-1"
-      cidr_blocks      = ["0.0.0.0/0"]
-      ipv6_cidr_blocks = []
-      prefix_list_ids = []
-      security_groups = []
-      self = false
-    }
-  ]
-
   egress = [
     {
       description      = "ALL Traffic"
